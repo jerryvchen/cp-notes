@@ -24,5 +24,10 @@ int main() {
 
     // printf("%.4f\n", x);
 
+    vector<int> a = {5, 2, 3, 1, 4};
+    bubble_sort(a);
+    for (auto elem : a) cout << elem << ' ';
+    cout << '\n';
+
     return 0;
 }
